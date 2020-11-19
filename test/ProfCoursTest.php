@@ -259,7 +259,7 @@ class ProfCoursTest extends TestCase
         print "########## - 1e COURS EN BASE - ########## \n";
         print $cours_str."\n";
         print "################################################################\n\n";
-        $expected = self::$prof_a[0]->__toString();
+        $expected = self::$cours_a[0]->__toString();
         $this->assertEquals($expected, $cours_str, "Cours \n");
         
 
